@@ -60,6 +60,8 @@ public class SecurityConfig {
         configuration.setAllowedOriginPatterns(
                 List.of(
                         "https://ride-sync-chi.vercel.app",
+                        "https://ride-sync-git-master-guruvishals-projects.vercel.app",
+                        "ride-sync-3pb3sutd7-guruvishals-projects.vercel.app",
                         "http://localhost:*",
                         "http://127.0.0.1:*",
                         "http://[::1]:*",
