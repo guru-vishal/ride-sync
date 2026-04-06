@@ -59,7 +59,7 @@ public class SecurityConfig {
         // still restricting to loopback hosts.
         configuration.setAllowedOriginPatterns(
                 List.of(
-                        "https://ride-sync-chi.vercel.app/",
+                        "https://ride-sync-chi.vercel.app",
                         "http://localhost:*",
                         "http://127.0.0.1:*",
                         "http://[::1]:*",
