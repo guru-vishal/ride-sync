@@ -1,8 +1,10 @@
 FROM eclipse-temurin:21-jdk-alpine
 
-WORKDIR /ridesync
+WORKDIR /app
 
 COPY . .
+
+WORKDIR /app/ridesync
 
 RUN apk add --no-cache maven
 RUN mvn clean package -DskipTests
