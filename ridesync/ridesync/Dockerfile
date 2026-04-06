@@ -1,6 +1,6 @@
 FROM eclipse-temurin:21-jdk-alpine
 
-WORKDIR /app
+WORKDIR /ridesync
 
 COPY . .
 
